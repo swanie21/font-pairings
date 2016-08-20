@@ -27,3 +27,17 @@ span {
   padding: 5px;
   width: 150px;
 }
+
+@media screen and (max-width: 700px) {
+  h1 {
+    font-size: 1.8em;
+    padding: 200px 20px 0 20px;
+    text-align: center;
+  }
+  span {
+    display: block;
+    font-size: 3em;
+    margin: 0 auto;
+    width: 100%;
+  }
+}

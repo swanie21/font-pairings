@@ -1,0 +1,29 @@
+h1 {
+  font-family: 'Unna', serif;
+  font-size: 3em;
+  line-height: 1.3em;
+  padding: 200px 100px 0 100px;
+}
+
+span {
+  color: #0d0d4a;
+  float: right;
+  font-family: 'Lato', sans-serif;
+  font-size: 3.7em;
+  margin-left: 0;
+  padding-top: 30px;
+}
+
+#hero-one {
+  background: url('../img/forest-fire.png') no-repeat center center fixed;
+  height: 700px;
+  width: 100%;
+}
+
+#week-one-fonts {
+  border: 2px solid black;
+  float:right;
+  margin: 10px 10px 0 0;
+  padding: 5px;
+  width: 150px;
+}

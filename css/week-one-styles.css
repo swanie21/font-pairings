@@ -1,4 +1,29 @@
+#project-one {
+  background: url('../img/forest-fire.png') no-repeat center;
+  height: 700px;
+  position: relative;
+  width: 100%;
+}
+
+#series-one {
+  padding-top: 1em;
+  text-align: center;
+}
+
+#week-one-font-styles {
+  bottom: 0;
+  padding-bottom: 2em;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+}
+
+#week-one-font-styles a {
+  font-weight: bold;
+}
+
 h1 {
+  color: #03020f;
   font-family: 'Unna', serif;
   font-size: 3em;
   line-height: 1.3em;
@@ -23,26 +48,6 @@ span {
   font-size: 3.7em;
   margin-left: 0;
   padding-top: 0.2em;
-}
-
-#hero-one {
-  background: url('../img/forest-fire.png') no-repeat center;
-  height: 700px;
-  position: relative;
-  width: 100%;
-}
-
-#series-one {
-  padding-top: 1em;
-  text-align: center;
-}
-
-#font-styles {
-  bottom: 0;
-  padding-bottom: 2em;
-  position: absolute;
-  text-align: center;
-  width: 100%;
 }
 
 @media screen and (max-width: 960px) {

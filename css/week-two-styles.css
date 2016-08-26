@@ -1,0 +1,25 @@
+#project-two {
+  height: 700px;
+  position: relative;
+  width: 100%;
+}
+
+#series-two {
+  padding-top: 1em;
+  text-align: center;
+}
+
+#week-two-font-styles {
+  bottom: 0;
+  padding-bottom: 2em;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+}
+
+#week-two-font-styles a {
+  font-weight: bold;
+}
+
+/*font-family: 'Vollkorn', serif;
+font-family: 'Open Sans', sans-serif;*/

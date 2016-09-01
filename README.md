@@ -12,3 +12,7 @@ Week one fonts:
 Week two fonts:
 [open sans](https://fonts.google.com/specimen/Open+Sans),
 [vollkorn](https://fonts.google.com/specimen/Vollkorn)
+
+Week three fonts:
+[arvo](https://fonts.google.com/specimen/Arvo),
+[noto sans](https://fonts.google.com/specimen/Noto+Sans)

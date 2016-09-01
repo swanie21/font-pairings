@@ -1,0 +1,21 @@
+#project-three {
+  height: 700px;
+  position: relative;
+  width: 100%;
+}
+
+#series-three {
+  padding-top: 1em;
+  text-align: center;
+}
+
+#week-three-font-styles {
+  bottom: 0;
+  padding-bottom: 2em;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+}
+
+/*font-family: 'Arvo', serif;
+font-family: 'Noto Sans', sans-serif;*/

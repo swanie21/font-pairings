@@ -41,7 +41,7 @@ a {
   text-decoration: none;
 }
 
-span {
+#water {
   color: #0d0d4a;
   float: right;
   font-family: 'Lato', sans-serif;
@@ -51,22 +51,22 @@ span {
 }
 
 @media screen and (max-width: 960px) {
-  h1 {
+  #first-quote  {
     font-size: 2.4em;
     padding: 5em 1em 0 1em;
   }
-  span {
+  #water {
     font-size: 3em;
   }
 }
 
 @media screen and (max-width: 700px) {
-  h1 {
+  #first-quote  {
     font-size: 1.7em;
     padding: 7em 0.74em 0 0.74em;
     text-align: center;
   }
-  span {
+  #water {
     display: block;
     margin: 0 auto;
     width: 100%;

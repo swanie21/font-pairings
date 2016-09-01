@@ -1,5 +1,7 @@
 # Font-pairings
 
+<img src="img/font-pairing.png" alt="font pairing example" height="400" width="650" />
+
 ## Introduction
 Every week for seven weeks I'll be creating responsive and expressive layouts with pre-assigned font pairings and text snippets. The gh-pages for this repo will be a one-page compilation of all these projects. [gh-pages](https://swanie21.github.io/font-pairings/ )
 

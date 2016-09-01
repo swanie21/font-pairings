@@ -1,4 +1,5 @@
 #project-two {
+  background-color: #f6f6e1;
   height: 700px;
   position: relative;
   width: 100%;
@@ -18,11 +19,80 @@
 }
 
 #week-two-font-styles a {
+  color: #f41cbe;
   font-weight: bold;
 }
 
-#second-quote {
-  font-family: 'Vollkorn', serif;
+#first-line-of-quote {
+  background-color: #f41cbe;
+  color: #141714;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 40px;
+  margin: 20px;
+  padding: 5px;
+  text-align: center;
+  transform: rotate(5deg);
+  transform-origin: top left;
 }
 
-/*font-family: 'Open Sans', sans-serif;*/
+#second-line-of-quote {
+  background-color: #30b109;
+  color: #141714;
+  font-family: 'Vollkorn', serif;
+  font-size: 80px;
+  margin: 130px;
+  padding: 10px;
+  text-align: center;
+  transform: rotate(-2deg);
+}
+
+#third-line-of-quote {
+  background-color: #0a9fc7;
+  color: #141714;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 50px;
+  margin: 30px;
+  padding: 5px;
+  text-align: center;
+  transform: rotate(10deg);
+}
+
+#steve {
+  font-family: 'Vollkorn', serif;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 916px) {
+  #first-line-of-quote {
+    font-size: 35px;
+    transform: rotate(-5deg);
+    transform-origin: top right;
+  }
+  #second-line-of-quote {
+    font-size: 60px;
+    margin: 120px;
+    transform: rotate(2deg);
+  }
+  #third-line-of-quote {
+    font-size: 40px;
+    margin: 10px;
+    transform: rotate(-6deg);
+  }
+}
+
+@media screen and (max-width: 738px) {
+  #first-line-of-quote {
+    font-size: 30px;
+    transform: rotate(-5deg);
+  }
+  #second-line-of-quote {
+    font-size: 45px;
+    margin: 80px;
+    transform: rotate(2deg);
+  }
+  #third-line-of-quote {
+    font-size: 30px;
+    margin: 10px;
+    transform: rotate(-6deg);
+  }
+}

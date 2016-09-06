@@ -1,4 +1,5 @@
 #project-three {
+  background-color: #39758F;
   height: 700px;
   position: relative;
   width: 100%;
@@ -17,5 +18,66 @@
   width: 100%;
 }
 
-/*font-family: 'Arvo', serif;
-font-family: 'Noto Sans', sans-serif;*/
+#week-three-font-styles a {
+  color: #F0E3D6;
+  font-weight: bold;
+}
+
+#third-quote {
+  background-color: #243243;
+  height: 30em;
+  margin: auto;
+  margin-top: 3em;
+  width: 70%;
+}
+
+.arvo-font {
+  background-color: #455D6B;
+  color: #F0E3D6;
+  display: inline-flex;
+  font-family: 'Arvo', serif;
+  font-size: 4.3em;
+  line-height: 1.5em;
+  margin: 0.3em 0.2em 0.3em 0.2em;
+  padding: 0.2em;
+}
+
+.noto-sans-font {
+  background-color: #714853;
+  color: #F0E3D6;
+  display: inline-flex;
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 3em;
+  line-height: 1.3em;
+  margin: 0.35em;
+  padding: 0.2em;
+}
+
+@media screen and (max-width: 1275px) {
+  .arvo-font {
+    font-size: 3em;
+    margin: 1em 0 0 0.5em;
+  }
+  .noto-sans-font {
+    font-size: 3em;
+    line-height: 1em;
+    margin: 1em 0 0 0.5em;
+  }
+}
+
+@media screen and (max-width: 1040px) {
+  .arvo-font, .noto-sans-font {
+    font-size: 2.5em;
+    line-height: 1.2em;
+  }
+}
+
+@media screen and (max-width: 690px) {
+  #third-quote {
+    width: 75%;
+  }
+  .arvo-font, .noto-sans-font {
+    font-size: 1.8em;
+    margin: 1em 0 0 0.8em;
+  }
+}

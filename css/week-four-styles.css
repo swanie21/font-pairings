@@ -1,0 +1,18 @@
+#project-four {
+  height: 700px;
+  position: relative;
+  width: 100%;
+}
+
+#series-four {
+  padding-top: 1em;
+  text-align: center;
+}
+
+#week-four-font-styles {
+  bottom: 0;
+  padding-bottom: 2em;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+}

@@ -6,13 +6,17 @@
 Every week for six weeks I'll be creating responsive and expressive layouts with pre-assigned font pairings and text snippets. The gh-pages for this repo will be a one-page compilation of all these projects. [gh-pages](https://swanie21.github.io/font-pairings/ )
 
 Week one fonts:
-[lato](https://fonts.google.com/specimen/Lato?category=Sans+Serif),
-[unna](https://fonts.google.com/specimen/Unna?category=Serif,Sans+Serif&query=unna)
+[Lato](https://fonts.google.com/specimen/Lato?category=Sans+Serif),
+[Unna](https://fonts.google.com/specimen/Unna?category=Serif,Sans+Serif&query=unna)
 
 Week two fonts:
-[open sans](https://fonts.google.com/specimen/Open+Sans),
-[vollkorn](https://fonts.google.com/specimen/Vollkorn)
+[Open Sans](https://fonts.google.com/specimen/Open+Sans),
+[Vollkorn](https://fonts.google.com/specimen/Vollkorn)
 
 Week three fonts:
-[arvo](https://fonts.google.com/specimen/Arvo),
-[noto sans](https://fonts.google.com/specimen/Noto+Sans)
+[Arvo](https://fonts.google.com/specimen/Arvo),
+[Noto sans](https://fonts.google.com/specimen/Noto+Sans)
+
+Week four fonts:
+[Abril Fatface](https://fonts.google.com/specimen/Abril+Fatface),
+[Open Sans](https://fonts.google.com/specimen/Open+Sans)

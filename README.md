@@ -3,7 +3,7 @@
 <img src="img/font-pairing.png" alt="font pairing example" height="400" width="700" />
 
 ## Introduction
-Every week for four weeks I'll be creating responsive and expressive layouts with pre-assigned font pairings and text snippets. The gh-pages for this repo will be a one-page compilation of all these projects. [gh-pages](https://swanie21.github.io/font-pairings/ )
+Every week for four weeks I'll be creating responsive and expressive layouts with pre-assigned font pairings and text snippets with SASS. The gh-pages for this repo will be a one-page compilation of all these projects. [gh-pages](https://swanie21.github.io/font-pairings/ )
 
 Week one fonts:
 [Lato](https://fonts.google.com/specimen/Lato?category=Sans+Serif),

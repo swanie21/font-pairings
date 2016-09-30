@@ -17,14 +17,14 @@
 
 #first-quote {
   color: #03020f;
-  font-family: 'Unna', serif;
+  font-family: $font-unna;
   font-size: 3em;
   line-height: 1.3em;
   padding: 3.5em 2em 0 2em;
 }
 
 h3 {
-  font-family: 'Lato', sans-serif;
+  font-family: $font-lato;
   line-height: 1.3em;
   text-transform: uppercase;
 }
@@ -37,7 +37,7 @@ a {
 #water {
   color: #0d0d4a;
   float: right;
-  font-family: 'Lato', sans-serif;
+  font-family: $font-lato;
   font-size: 3.7em;
   margin-left: 0;
   padding-top: 0.2em;

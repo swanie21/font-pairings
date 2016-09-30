@@ -28,7 +28,7 @@
   background-color: #455D6B;
   color: #F0E3D6;
   display: inline-flex;
-  font-family: 'Arvo', serif;
+  font-family: $font-arvo;
   font-size: 4.3em;
   line-height: 1.5em;
   margin: 0.3em 0.2em 0.3em 0.2em;
@@ -39,7 +39,7 @@
   background-color: #714853;
   color: #F0E3D6;
   display: inline-flex;
-  font-family: 'Noto Sans', sans-serif;
+  font-family: $font-noto-sans;
   font-size: 3em;
   line-height: 1.3em;
   margin: 0.35em;

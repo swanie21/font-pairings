@@ -19,7 +19,7 @@
 #first-line-of-quote {
   background-color: #f41cbe;
   color: #141714;
-  font-family: 'Open Sans', sans-serif;
+  font-family: $font-open-sans;
   font-size: 40px;
   margin: 20px;
   padding: 5px;
@@ -31,7 +31,7 @@
 #second-line-of-quote {
   background-color: #30b109;
   color: #141714;
-  font-family: 'Vollkorn', serif;
+  font-family: $font-vollkorn;
   font-size: 80px;
   margin: 130px;
   padding: 10px;
@@ -42,7 +42,7 @@
 #third-line-of-quote {
   background-color: #0a9fc7;
   color: #141714;
-  font-family: 'Open Sans', sans-serif;
+  font-family: $font-open-sans;
   font-size: 50px;
   margin: 30px;
   padding: 5px;
@@ -51,7 +51,7 @@
 }
 
 #steve {
-  font-family: 'Vollkorn', serif;
+  font-family: $font-vollkorn;
   font-weight: bold;
 }
 

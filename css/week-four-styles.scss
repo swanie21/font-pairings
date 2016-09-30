@@ -1,5 +1,6 @@
 #project-four {
   @include project-container;
+  background: url('../img/mountains.png') no-repeat center;
 }
 
 #series-four {
@@ -8,4 +9,104 @@
 
 #week-four-font-styles {
   @include font-pairing;
+}
+
+#fly {
+  animation-duration: 1.5s;
+  animation-name: slidein;
+  display: inline-block;
+  font-family: $font-abril-fatface;
+  line-height: 1.2em;
+}
+
+@keyframes slidein {
+    from {
+      margin-left: 900px;
+    }
+    to {
+      margin-right: 900px;
+    }
+}
+
+#week-four-quote {
+  font: {
+    family: $font-open-sans;
+    size: 2em;
+  }
+  padding-top: 1.8em;
+  text-align: center;
+  width: 100%;
+}
+
+#quote-four-author {
+  font-family: $font-open-sans;
+  position: absolute;
+  text-align: center;
+  top: 200px;
+  width: 100%;
+}
+
+#week-four-font-styles {
+  a {
+    color: #c8c0cb;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  #week-four-quote {
+    padding-left: 1.8em;
+    text-align: left;
+    width: 90%;
+  }
+
+  #fly {
+    animation-name: slidein;
+  }
+
+  @keyframes slidein {
+      from {
+        margin-left: 500px;
+      }
+      to {
+        margin-right: 0px;
+      }
+  }
+}
+
+@media screen and (max-width: 870px) {
+  #fly {
+    animation-name: slidein;
+  }
+
+  @keyframes slidein {
+      from {
+        margin-left: 300px;
+      }
+      to {
+        margin-right: 0px;
+      }
+  }
+}
+
+@media screen and (max-width: 800px) {
+  #fly {
+    animation-name: none;
+  }
+}
+
+@media screen and (max-width: 670px) {
+  #week-four-quote {
+    line-height: 1.3em;
+    padding-left: 0.7em;
+  }
+
+  #quote-four-author {
+    margin-top: 0.5em;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #quote-four-author {
+    top: 280px;
+  }
 }

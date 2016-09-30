@@ -1,21 +1,14 @@
 #project-one {
+  @include project-container;
   background: url('../img/forest-fire.png') no-repeat center;
-  height: 700px;
-  position: relative;
-  width: 100%;
 }
 
 #series-one {
-  padding-top: 1em;
-  text-align: center;
+  @include series-description;
 }
 
 #week-one-font-styles {
-  bottom: 0;
-  padding-bottom: 2em;
-  position: absolute;
-  text-align: center;
-  width: 100%;
+  @include font-pairing;
 }
 
 #week-one-font-styles a {

@@ -1,18 +1,18 @@
-#project-four {
+@mixin project-container {
   height: 700px;
   position: relative;
   width: 100%;
 }
 
-#series-four {
-  padding-top: 1em;
-  text-align: center;
-}
-
-#week-four-font-styles {
+@mixin font-pairing {
   bottom: 0;
   padding-bottom: 2em;
   position: absolute;
   text-align: center;
   width: 100%;
+}
+
+@mixin series-description {
+  padding-top: 1em;
+  text-align: center;
 }

@@ -1,21 +1,14 @@
 #project-three {
+  @include project-container;
   background-color: #39758F;
-  height: 700px;
-  position: relative;
-  width: 100%;
 }
 
 #series-three {
-  padding-top: 1em;
-  text-align: center;
+  @include series-description;
 }
 
 #week-three-font-styles {
-  bottom: 0;
-  padding-bottom: 2em;
-  position: absolute;
-  text-align: center;
-  width: 100%;
+  @include font-pairing;
 }
 
 #week-three-font-styles a {

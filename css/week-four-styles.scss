@@ -1,0 +1,11 @@
+#project-four {
+  @include project-container;
+}
+
+#series-four {
+  @include series-description;
+}
+
+#week-four-font-styles {
+  @include font-pairing;
+}
